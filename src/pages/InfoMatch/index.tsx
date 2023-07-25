@@ -2,17 +2,24 @@ import React, { useContext } from 'react'
 import { Text, View, Image } from 'react-native'
 import { styleInfoMatch } from './style'
 import { FootContext } from '../../contexts/footbal';
-import { CardPlayer } from '../../components/CardPlayer';
+import { format, isValid  } from 'date-fns';
+
 
 export const InfoMatchPage = (props: any) => {
 
     const { matchFinded, teamHomeFinded, teamAwayFinded } = useContext(FootContext)
 
+    const date = matchFinded?.utcDate;
+
+    const newDate = new Date(date ?? '')
+
+    const dateFormatted = isValid(newDate) ? format(newDate, 'dd-MM-yyyy') : 'Data inválida';
+
   return (
     <View style={styleInfoMatch.divCont}>
         <View>
             <Text style={styleInfoMatch.infosText} >Informações da Partida</Text>
-            <Text style={styleInfoMatch.infosText} >Data: {matchFinded?.lastUpdated}</Text>
+            <Text style={styleInfoMatch.infosText} >Data: {dateFormatted}</Text>
             <Text style={styleInfoMatch.infosText} >Status: {matchFinded?.status}</Text>
         </View>
         <View style={styleInfoMatch.container}>

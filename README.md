@@ -10,6 +10,8 @@ O Projeto possui as seguintes aplicações:
 Main: Página onde o cliente irá acompanhar quais o campeonatos ativos.\
 Matches Page: Página onde o novo cliente irá ver as partidas do campeonato.\
 Info Match page: Página acessada pelo cliente para verificar mais informações sobre a partida.
+FormBet: Ao final de cada Info Match page, caso o status da partida seja diferente de 'FINISHED' o usuário poderá simular
+um preenchimento de formlário de palpites de partida.
 
 ## Passo a passo para executar o projeto
 
@@ -45,3 +47,4 @@ O Projeto usa algumas bibliotecas e linguagens fundamentais e que se destacam:
   - Typescript: Linguagem de programação de código aberto realizada para criação do projeto.
   - React-Native-Stack: Biblioteca utilizada para realizar o sistema de roteamento entre páginas.
   - Axios: Biblioteca para realizar requisições com a nossa API.
+  - Toast: Biblioteca para rederizar mensagens toast para o usuário.

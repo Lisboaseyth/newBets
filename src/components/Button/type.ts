@@ -1,5 +1,5 @@
 import { TouchableOpacityProps } from 'react-native';
 
-export interface CustomButtonProps extends TouchableOpacityProps {
+export interface iCustomButtonProps extends TouchableOpacityProps {
     title: string;
   }

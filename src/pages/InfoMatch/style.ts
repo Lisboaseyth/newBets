@@ -77,5 +77,9 @@ export const styleInfoMatch = StyleSheet.create({
     nameTeam: {
         fontSize: 25,
         fontWeight: 'bold'
-    }
+    },
+    scrollViewContent: {
+        flexGrow: 1,
+        justifyContent: 'space-between',
+      },
 })

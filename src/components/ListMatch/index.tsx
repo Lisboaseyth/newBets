@@ -4,7 +4,7 @@ import { ScrollView, Text, View } from 'react-native';
 import { styleList } from '../ListChamps/style';
 import { CardMatch } from '../CardMatch';
 import { StyleMatchList } from './style';
-import { CustomButton } from '../Buttom';
+import { CustomButton } from '../Button';
 
 
 export const ListMatches = () => {

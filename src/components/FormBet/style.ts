@@ -110,5 +110,23 @@ export const styleForm = StyleSheet.create({
         justifyContent: 'center',
 
         gap: 20
-    }
+    },
+    betsContainer: {
+        marginTop: 20,
+        padding: 10,
+        backgroundColor: '#FFF',
+        borderRadius: 5,
+    },
+    betsTitle: {
+        textAlign: 'center',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        color: '#001643',
+    },
+    betValue: {
+        fontSize: 16,
+        color: '#001643',
+        marginBottom: 5,
+    },
 });

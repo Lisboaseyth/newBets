@@ -11,7 +11,8 @@ Main: Página onde o cliente irá acompanhar quais o campeonatos ativos.\
 Matches Page: Página onde o novo cliente irá ver as partidas do campeonato.\
 Info Match page: Página acessada pelo cliente para verificar mais informações sobre a partida.
 FormBet: Ao final de cada Info Match page, caso o status da partida seja diferente de 'FINISHED' o usuário poderá simular
-um preenchimento de formlário de palpites de partida.
+um preenchimento de formulário de palpites de partida.
+Assim que o usuário preencher os palpites desejados e clicar em 'APOSTAR', irá renderizar em um quadro abaixo todos os palpites apostados!
 
 ## Passo a passo para executar o projeto
 
